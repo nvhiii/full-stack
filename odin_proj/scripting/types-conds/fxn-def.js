@@ -1,5 +1,5 @@
-const textBox = document.querySelector("#box");
+const text = document.querySelector("#box");
 
-textBox.addEventListener("keydown", (event) =>
-  console.log(`You typed out ${event.key}`)
+text.addEventListener("keydown", (event) =>
+  console.log(`You pressed ${event.key}`)
 );
