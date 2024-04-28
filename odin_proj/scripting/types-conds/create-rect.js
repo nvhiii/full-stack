@@ -9,4 +9,6 @@ const color = "blue";
 
 // Add your code here
 
-function rect() {}
+function rectangle() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
